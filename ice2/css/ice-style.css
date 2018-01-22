@@ -1,0 +1,26 @@
+body {
+    background-color: darkgreen;
+}
+
+
+header {
+    background-color: yellow;
+    align-content: center;
+    text-align: right;
+}
+
+nav ul li {
+    background-color: black;
+    display: inline-block;
+    color: #ffffff;
+    align-content: center;
+}
+
+aside {
+    align: right;
+    left-margin: 50%;
+}
+
+#content {
+    background-color: darkgray;
+}
