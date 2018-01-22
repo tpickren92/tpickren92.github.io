@@ -49,10 +49,21 @@ aside {
     background-size: 400px 200px;
 }
 
+
+
 #content {
     left: 0;
-    widows: 80%;
-    display: inline;
+    width: 80%;
+    display: block;
     position: relative;
-    background-color: darkgray;
+    background-color: gray;
+}
+
+
+.sonnet li {
+    list-style: none;
+}
+
+.description {
+    word-wrap: break-word;
 }
