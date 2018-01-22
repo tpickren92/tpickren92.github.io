@@ -14,27 +14,45 @@ body {
     overflow: hidden;
 }
 
-
-header h1 {
+header {
     background-color: yellow;
     align-content: center;
     text-align: right;
 }
 
+
+nav ul {
+    text-align: center;
+}
+
 nav ul li {
     background-color: black;
     display: inline-block;
-    color: #ffffff;
-    align-content: center;
+    position: center;
 }
 
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
 aside {
+    right: 0;
+    width: 20%;
+    height: 80%;
+    display: inline;
+    position: absolute;
     background-color: #ffffff;
     background-image: url(http://www.literarygenius.info/images/william-shakespeare.jpg);
-    align: right;
-    left-margin: 50%;
+    background-size: 400px 200px;
 }
 
 #content {
+    left: 0;
+    widows: 80%;
+    display: inline;
+    position: relative;
     background-color: darkgray;
 }
