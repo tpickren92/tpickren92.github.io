@@ -1,0 +1,14 @@
+
+.shape{
+    margin: 36px;
+    float: left;
+    background: #1EB287; /*green*/
+    height: 40px;
+    width: 40px;
+
+}
+/* blue: #158BC5 */
+/* red: #D25E51 */
+img {
+    float: left;
+}
