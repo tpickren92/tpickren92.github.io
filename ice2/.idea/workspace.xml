@@ -15,8 +15,8 @@
       <file leaf-file-name="ice2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ice2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            <state relative-caret-position="300">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -25,8 +25,18 @@
       <file leaf-file-name="ice-style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/ice-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICE-CSS-Images.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ICE-CSS-Images.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -37,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,6 +61,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ice2.html" />
+        <option value="$PROJECT_DIR$/ICE-CSS-Images.html" />
         <option value="$PROJECT_DIR$/css/ice-style.css" />
       </list>
     </option>
@@ -82,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -100,8 +110,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,12 +232,13 @@
       <updated>1516645435040</updated>
       <workItem from="1516645437123" duration="5439000" />
       <workItem from="1516810420219" duration="48000" />
-      <workItem from="1517416790191" duration="1197000" />
+      <workItem from="1517416790191" duration="1340000" />
+      <workItem from="1517421583879" duration="1044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6684000" />
+    <option name="totallyTimeSpent" value="7871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="42" width="1400" height="838" extended-state="0" />
@@ -273,6 +285,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ice2.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ice-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ice2.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" column="47" lean-forward="false" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
           <folding />
@@ -303,18 +331,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ICE-CSS-Images.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ice2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/ice-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
           <folding />
         </state>
       </provider>
