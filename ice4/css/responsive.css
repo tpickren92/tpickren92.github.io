@@ -1,0 +1,35 @@
+@media only screen and (max-width: 650px) {
+    nav ul {
+        text-align: center;
+        display: inline-flex;
+    }
+
+    nav li {
+        display: inline;
+        padding: .25em;
+    }
+
+    .top-nav ul li a  {
+        display: inline;
+    }
+
+    .photo-cell-vertical img {
+        width: 48.5%;
+        display: inline;
+    }
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+    .photo-grid div img {
+        width: 45%;
+        display: inline-flex;
+    }
+
+    .photo-cell-vertical img {
+        width: 24.25%;
+        display: inline;
+    }
+
+}

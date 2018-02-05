@@ -198,3 +198,13 @@ footer p{
   	display: block;
   	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
 }
+
+.photo-cell-vertical {
+	margin-bottom: 2%;
+	margin-left: 2%;
+}
+.photo-cell-vertical img  {
+	width: 98%;
+	display: block;
+	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+}
