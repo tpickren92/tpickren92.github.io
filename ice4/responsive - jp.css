@@ -1,0 +1,58 @@
+@media only screen and (max-width: 650px) {
+    nav ul {
+        text-align: center;
+        display: inline-flex;
+    }
+
+    nav li {
+        display: inline;
+        padding: .25em;
+    }
+
+    .top-nav ul li a  {
+        display: inline;
+    }
+
+    .photo-cell-vertical img {
+        width: 48.5%;
+        display: inline;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+
+    nav ul {
+        text-align: right;
+        display: inline-flex;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: .25em;
+    }
+    .logo{
+        text-align: left;
+    }
+
+    .photo-cell-vertical {
+        width: 48.5%;
+        display: inline-block;
+    }
+    .photo-cell {
+        width: 95%;
+        display: inline;
+    }
+
+
+    
+    .photo-grid div img {
+        width: 44.5%;
+        display: inline-block;
+    }
+
+
+
+}
