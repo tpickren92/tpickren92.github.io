@@ -14,7 +14,8 @@
     }
 
     .photo-cell-vertical img {
-        width: 48.5%;
+        /*width: 48.5%;*/
+        width: 50%;
         display: inline;
     }
 }
@@ -50,17 +51,26 @@
     }
 
     .photo-cell-vertical {
+        /*width: 49.50%;*/
+        width: 45%;
+        display: inline-block;
+    }
+    .photo-grid img {
+        /*width: 44.5%;*/
+        width: 45%;
+        display: inline-block;
+    }
+    .photo-cell-vertical img{
         width: 49.50%;
+        /*width: 50%;*/
         display: inline-block;
     }
     .photo-cell {
-        width: 95%;
+        /*width: 95%;*/
+        width: 100%;
         display: inline;
     }
-    .photo-grid div img {
-        width: 44.5%;
-        display: inline-block;
-    }
+
 }
 
 /*@media only screen and (max-width: 200px) {*/
