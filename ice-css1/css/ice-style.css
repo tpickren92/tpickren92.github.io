@@ -29,6 +29,7 @@ header h1 {
 nav ul {
     text-align: center;
     height: 30px;
+    padding: .25%;
 }
 
 nav ul li {
@@ -36,13 +37,16 @@ nav ul li {
     display: inline-block;
     position: center;
     height: 30px;
+    padding: 1%;
 
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    margin-top: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    /*padding: .025%*/
 }
 
 
