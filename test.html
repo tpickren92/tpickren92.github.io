@@ -64,15 +64,18 @@
     // When the user clicks on <div>, open the popup
     function myFunction() {
         var popup = document.getElementById("myPopup");
-        popup.classList.toggle("show");
+        popup.classList.toggle("show")
+        popup.focus();
     }
 </script>
 
 <body>
 
+<br/>
+<p>this is some text</p>
+<br/>
+<div style="padding-left:130px; background-color:red;" class="popup" onclick="myFunction()">Click me!
 
-<div class="popup" onclick="myFunction()">Click me!
-    <iframe>
         <span class="popuptext" id="myPopup">
 
         <form action="https://formspree.io/dejaentendu10@gmail.com"
@@ -83,9 +86,10 @@
             <input type="submit" value="Send">
         </form>
 
-        </span>
-    </iframe>
+        </span>'
 </div>
+
+
 
 
 
