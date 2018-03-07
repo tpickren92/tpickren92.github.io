@@ -1,5 +1,56 @@
+@media only screen and (min-width: 1000px) {
+    .top-nav ul {
+        text-align: right;
+        display: block;
 
-@media only screen and (max-width: 1000px) {  /*(max-width: 650px) */
+    }
+    nav ul li{
+        text-align: right;
+        display: inline-flex;
+    }
+
+    /*    nav li {
+            display: inline-flex;
+            padding: .25em;
+        }*/
+
+
+
+    /*    .top-nav ul li a  {
+            display: inline;
+        }*/
+    .photo-cell {
+        width: 100%;
+        display: inline;
+    }
+
+    .photo-grid img {
+        width: 46%;
+        display: inline-block;
+    }
+    .photo-cell-vertical {
+        width: 46%;
+        display: inline-block;
+    }
+
+
+
+    /*nav li {
+        display: inline-block;
+        padding: .25em;
+    }*/
+    .logo{
+        text-align: left;
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 650px) {
     nav ul {
         text-align: center;
         display: inline-flex;
@@ -10,64 +61,13 @@
         padding: .25em;
     }
 
-    .top-nav ul li  {
-        /*border-top: none;*/
-
+    .top-nav ul li a  {
+        display: inline;
     }
 
     .photo-cell-vertical img {
-        /*width: 48.5%;*/
-        width: 50%;
-        display: inline;
-    }
-}
-
-
-
-
-@media only screen and (min-width: 650px) {  /* (min-width: 1000px) */
-
-    nav ul {
-        text-align: right;
-        display: inline-flex;
-    }
-    nav li {
-        display: inline-block;
-        padding: .25em;
-    }
-    .top-nav ul li {
-        /*border-top: none;*/
-    }
-    .top-nav ul li a {
-        display: inline;
-    }
-    .logo{
-        text-align: left;
-    }
-
-    .photo-cell-vertical {
-        /*width: 49.50%;*/
-        width: 45%;
-        display: inline-block;
-    }
-    .photo-grid img {
-        /*width: 44.5%;*/
-        width: 45%;
-        display: inline-block;
-    }
-    .photo-cell-vertical img{
-        width: 49.50%;
-        /*width: 50%;*/
-        display: inline-block;
-    }
-    .photo-cell {
-        /*width: 95%;*/
-        width: 100%;
+        width: 48.5%;
         display: inline;
     }
 
 }
-
-
-
-

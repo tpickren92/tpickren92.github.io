@@ -13,7 +13,13 @@
     
     <script type="text/javascript">
     function checkForm(){
-    	// Write a function that displays the appropriate error message(s) if a field is left blank.  Make sure the form action is not performed if either field is blank.
+    	// Write a function that displays the appropriate error message(s) if a field is left blank.
+        // Make sure the form action is not performed if either field is blank.
+        var x = document.forms["myForm"]["fname"].value;
+        if (x == "") {
+            alert("Name must be filled out");
+            return false;
+        }
     }  
     </script>
 </head>
