@@ -8,24 +8,45 @@
     .errormsg { 
         /*font: Use a cool Google font*/
     	color:red;
-    	display:none; } 
+    	display:none; }
     </style>
     
     <script type="text/javascript">
     function checkForm(){
     	// Write a function that displays the appropriate error message(s) if a field is left blank.
         // Make sure the form action is not performed if either field is blank.
-        var x = document.forms["myForm"]["fname"].value;
-        if (x == "") {
-            alert("Name must be filled out");
+        var name = document.forms["myForm"]["fullname"].value;
+        var address = document.forms["myForm"]["streetaddr"].value;
+
+        var x = document.getElementById("nameerrormsg");
+        var y = document.getElementById("addrerrormsg");
+
+
+        if (name == "" && address == "") {
+            x.style.display = "block";
+            y.style.display = "block";
             return false;
+        } else if (name == "") {
+            x.style.display = "block";
+            y.style.display = "none";
+            return false;
+        } else if (address == "") {
+            x.style.display = "none";
+            y.style.display = "block";
+            return false;
+        } else {
+            x.style.display = "none";
+            y.style.display = "none";
         }
-    }  
+
+
+
+    }
     </script>
 </head>
 <body>
     <h1>Challenge 4</h1>
-	<form action="challenge5.html" onsubmit="return checkForm();">
+	<form name="myForm" action="challenge5.html" onsubmit="return checkForm();">
         <fieldset>
         <legend>Personal details</legend>
           <label for="fullname">Full name: </label>
