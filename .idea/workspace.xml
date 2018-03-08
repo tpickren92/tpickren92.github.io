@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81e9e33a-a212-45eb-8531-8aaeb287c0bb" name="Default" comment="" />
+    <list default="true" id="81e9e33a-a212-45eb-8531-8aaeb287c0bb" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/test 5 essentials.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test6.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/test5.html" afterPath="$PROJECT_DIR$/test5.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,14 +61,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test5.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="123" column="154" lean-forward="false" selection-start-line="123" selection-start-column="154" selection-end-line="123" selection-end-column="154" />
+            <state relative-caret-position="222">
+              <caret line="128" column="24" lean-forward="false" selection-start-line="128" selection-start-column="24" selection-end-line="156" selection-end-column="117" />
               <folding>
-                <element signature="e#2895#2902#1" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2897#2904#1" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test 5 essentials.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test 5 essentials.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="68" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test6.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test6.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="632">
+              <caret line="113" column="89" lean-forward="false" selection-start-line="113" selection-start-column="89" selection-end-line="113" selection-end-column="89" />
+              <folding>
+                <marker date="1520544471000" expanded="true" signature="2621:2635" ph="..." />
+                <marker date="1520544471000" expanded="true" signature="4800:4812" ph="..." />
               </folding>
             </state>
           </provider>
@@ -101,6 +133,8 @@
         <option value="$PROJECT_DIR$/test3.html" />
         <option value="$PROJECT_DIR$/test4.html" />
         <option value="$PROJECT_DIR$/test5.html" />
+        <option value="$PROJECT_DIR$/test 5 essentials.html" />
+        <option value="$PROJECT_DIR$/test6.html" />
       </list>
     </option>
   </component>
@@ -265,12 +299,12 @@
       <workItem from="1520289397534" duration="2743000" />
       <workItem from="1520439077138" duration="8588000" />
       <workItem from="1520520976393" duration="269000" />
-      <workItem from="1520534203458" duration="2945000" />
+      <workItem from="1520534203458" duration="6644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14545000" />
+    <option name="totallyTimeSpent" value="18244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -485,11 +519,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="123" column="154" lean-forward="false" selection-start-line="123" selection-start-column="154" selection-end-line="123" selection-end-column="154" />
+        <state relative-caret-position="222">
+          <caret line="128" column="24" lean-forward="false" selection-start-line="128" selection-start-column="24" selection-end-line="156" selection-end-column="117" />
           <folding>
-            <element signature="e#2895#2902#1" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2897#2904#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test 5 essentials.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="113" column="89" lean-forward="false" selection-start-line="113" selection-start-column="89" selection-end-line="113" selection-end-column="89" />
+          <folding>
+            <marker date="1520544471000" expanded="true" signature="2621:2635" ph="..." />
+            <marker date="1520544471000" expanded="true" signature="4800:4812" ph="..." />
           </folding>
         </state>
       </provider>

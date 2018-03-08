@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Request a Quote</title>
+</head>
+
+<style>
+    .btn {
+        background-color:#4545E5;
+        color:white;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 1em;
+        border: none;
+        border-bottom: .15em solid black;
+        border-radius: 3px;
+        padding: 0.65em 1em;
+    }
+
+    .buttonDiv {
+        padding-top: 5px;
+    }
+</style>
+
+<body>
+
+    <div class="buttonDiv" align="center">
+        <a class="btn" id="myBtn" onclick="myFunction()" a>Request a Quote</a>
+    </div>
+
+    <script>
+        function myFunction() {
+            var myWindow = window.open("", "MsgWindow", "width=255,height=600");
+            myWindow.document.write("<!DOCTYPE html>\n" +
+                "<html lang=\"en\">\n" +
+                "<head>\n" +
+                "    <meta charset=\"UTF-8\">\n" +
+                "    <title>Title</title>\n" +
+                "</head>\n" +
+                "<style>\n" +
+                "    input[type=text], select, textarea {\n" +
+                "        width: 100%;\n" +
+                "        padding: 3px;\n" +
+                "        border: 0.5px solid #ccc;\n" +
+                "        border-radius: 1px;\n" +
+                "        box-sizing: border-box;\n" +
+                "        margin-top: 1.5px;\n" +
+                "        margin-bottom: 4px;\n" +
+                "        resize: vertical;\n" +
+                "    }\n" +
+                "\n" +
+                "    input[type=submit] {\n" +
+                "        background-color: #4CAF50;\n" +
+                "        color: white;\n" +
+                "        padding: 3px 5px;\n" +
+                "        border: none;\n" +
+                "        border-radius: 2px;\n" +
+                "        cursor: pointer;\n" +
+                "    }\n" +
+                "\n" +
+                "    input[type=submit]:hover {\n" +
+                "        background-color: #45a049;\n" +
+                "    }\n" +
+                "\n" +
+                "    .container {\n" +
+                "        border-radius: 5px;\n" +
+                "        background-color: #f2f2f2;\n" +
+                "        padding: 20px;\n" +
+                "        width: 200px;\n" +
+                "        height: 525px;\n" +
+                "    }\n" +
+                "</style>\n" +
+                "\n" +
+                "\n" +
+                "<body>\n" +
+                "\n" +
+                "<div class=\"container\">\n" +
+                "\n" +
+                "    <div style=\"display: none;\" id=\"thankyou_message\">\n" +
+                "        <h2>Thanks for contacting us! We will get back to you soon.</h2>\n" +
+                "    </div>\n" +
+                "\n" +
+                "    <form id=\"gform\" method=\"POST\" action=\"https://script.google.com/macros/s/AKfycbwfmZQ6SqqPTY5Ju0VS2GLMfVPBPyRxUeprBTF8DcnaisgruEc/exec\" >\n" +
+                "\n" +
+                "        <label for=\"name\">Name</label>\n" +
+                "        <input type=\"text\" id=\"name\" name=\"name\" required>\n" +
+                "\n" +
+                "        <label for=\"phone\">Phone</label>\n" +
+                "        <input type=\"text\" id=\"phone\" name=\"phone\" required>\n" +
+                "\n" +
+                "        <label for=\"email\">Email</label>\n" +
+                "        <input type=\"text\" id=\"email\" name=\"email\" required>\n" +
+                "\n" +
+                "        <label for=\"company\">Company Name</label>\n" +
+                "        <input type=\"text\" id=\"company\" name=\"company\" required>\n" +
+                "\n" +
+                "        <label for=\"address\">Address</label>\n" +
+                "        <input type=\"text\" id=\"address\" name=\"address\">\n" +
+                "\n" +
+                "        <label for=\"cityStateZip\">City, State, Zip</label>\n" +
+                "        <input type=\"text\" id=\"cityStateZip\" name=\"cityStateZip\" >\n" +
+                "\n" +
+                "        <label for=\"country\">Country</label>\n" +
+                "        <input type=\"text\" id=\"country\" name=\"country\" >\n" +
+                "\n" +
+                "        <label for=\"fax\">Fax</label>\n" +
+                "        <input type=\"text\" id=\"fax\" name=\"fax\">\n" +
+                "\n" +
+                "        <label for=\"stockNumber\">Stock #</label>\n" +
+                "        <input type=\"text\" id=\"stockNumber\" name=\"stockNumber\" value=\"1234\" required>\n" +
+                "\n" +
+                "        <label for=\"subject\">Comments</label>\n" +
+                "        <textarea id=\"subject\" name=\"subject\" style=\"height:100px\"></textarea>\n" +
+                "\n" +
+                "        <input type=\"submit\" value=\"Submit\">\n" +
+                "    </form>\n" +
+                "</div>\n" +
+                "\n" +
+                "</body>\n" +
+                "</html>");
+        }
+    </script>
+
+</body>
+</html>
