@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81e9e33a-a212-45eb-8531-8aaeb287c0bb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/test5.html" afterPath="$PROJECT_DIR$/test5.html" />
-    </list>
+    <list default="true" id="81e9e33a-a212-45eb-8531-8aaeb287c0bb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +59,8 @@
       <file leaf-file-name="test5.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="135" column="70" lean-forward="false" selection-start-line="135" selection-start-column="70" selection-end-line="135" selection-end-column="70" />
+            <state relative-caret-position="161">
+              <caret line="123" column="154" lean-forward="false" selection-start-line="123" selection-start-column="154" selection-end-line="123" selection-end-column="154" />
               <folding>
                 <element signature="e#2895#2902#1" expanded="true" />
                 <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
@@ -267,12 +265,12 @@
       <workItem from="1520289397534" duration="2743000" />
       <workItem from="1520439077138" duration="8588000" />
       <workItem from="1520520976393" duration="269000" />
-      <workItem from="1520534203458" duration="2776000" />
+      <workItem from="1520534203458" duration="2945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14376000" />
+    <option name="totallyTimeSpent" value="14545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -487,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="135" column="70" lean-forward="false" selection-start-line="135" selection-start-column="70" selection-end-line="135" selection-end-column="70" />
+        <state relative-caret-position="161">
+          <caret line="123" column="154" lean-forward="false" selection-start-line="123" selection-start-column="154" selection-end-line="123" selection-end-column="154" />
           <folding>
             <element signature="e#2895#2902#1" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
