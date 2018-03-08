@@ -84,41 +84,49 @@
                 "    <form id=\"gform\" method=\"POST\" action=\"https://script.google.com/macros/s/AKfycbwfmZQ6SqqPTY5Ju0VS2GLMfVPBPyRxUeprBTF8DcnaisgruEc/exec\" >\n" +
                 "\n" +
                 "        <label for=\"name\">Name</label>\n" +
-                "        <input type=\"text\" id=\"name\" name=\"name\" required>\n" +
+                "        <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Name\" required>\n" +
                 "\n" +
                 "        <label for=\"phone\">Phone</label>\n" +
-                "        <input type=\"text\" id=\"phone\" name=\"phone\" required>\n" +
+                "        <input type=\"text\" id=\"phone\" name=\"phone\" placeholder=\"Phone\" required>\n" +
                 "\n" +
                 "        <label for=\"email\">Email</label>\n" +
-                "        <input type=\"text\" id=\"email\" name=\"email\" required>\n" +
+                "        <input type=\"text\" id=\"email\" name=\"email\" placeholder=\"Email\" required>\n" +
                 "\n" +
                 "        <label for=\"company\">Company Name</label>\n" +
-                "        <input type=\"text\" id=\"company\" name=\"company\" required>\n" +
+                "        <input type=\"text\" id=\"company\" name=\"company\" placeholder=\"Company\" required>\n" +
                 "\n" +
                 "        <label for=\"address\">Address</label>\n" +
-                "        <input type=\"text\" id=\"address\" name=\"address\">\n" +
+                "        <input type=\"text\" id=\"address\" name=\"address\" placeholder=\"Address\">\n" +
                 "\n" +
                 "        <label for=\"cityStateZip\">City, State, Zip</label>\n" +
-                "        <input type=\"text\" id=\"cityStateZip\" name=\"cityStateZip\" >\n" +
+                "        <input type=\"text\" id=\"cityStateZip\" name=\"cityStateZip\" placeholder=\"City, State, & Zip code\">\n" +
                 "\n" +
                 "        <label for=\"country\">Country</label>\n" +
-                "        <input type=\"text\" id=\"country\" name=\"country\" >\n" +
+                "        <input type=\"text\" id=\"country\" name=\"country\" placeholder=\"Country\">\n" +
                 "\n" +
                 "        <label for=\"fax\">Fax</label>\n" +
-                "        <input type=\"text\" id=\"fax\" name=\"fax\">\n" +
+                "        <input type=\"text\" id=\"fax\" name=\"fax\" placeholder=\"Fax\">\n" +
                 "\n" +
                 "        <label for=\"stockNumber\">Stock #</label>\n" +
-                "        <input type=\"text\" id=\"stockNumber\" name=\"stockNumber\" value=\"1234\" required>\n" +
+                "        <input type=\"text\" id=\"stockNumber\" name=\"stockNumber\" value=\"1234\" placeholder=\"Stock #\" required>\n" +
                 "\n" +
                 "        <label for=\"subject\">Comments</label>\n" +
-                "        <textarea id=\"subject\" name=\"subject\" style=\"height:100px\"></textarea>\n" +
+                "        <textarea id=\"subject\" name=\"subject\" style=\"height:100px\" placeholder=\"Comments\"></textarea>\n" +
                 "\n" +
                 "        <input type=\"submit\" value=\"Submit\">\n" +
                 "    </form>\n" +
                 "</div>\n" +
                 "\n" +
-                "</body>\n" +
-                "</html>");
+                "<script data-cfasync=\"false\" type=\"text/javascript\"\n" +
+                "        src=\"https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js\"></script>
+    \n"+
+    "\n"+
+    "
+</body>
+\n"+
+"
+</html>\n"+
+"\n");
         }
     </script>
 

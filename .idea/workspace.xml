@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="81e9e33a-a212-45eb-8531-8aaeb287c0bb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/test 5 essentials.html" afterPath="$PROJECT_DIR$/test 5 essentials.html" />
+      <change beforePath="$PROJECT_DIR$/test6.html" afterPath="$PROJECT_DIR$/test6.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,8 +62,8 @@
       <file leaf-file-name="test5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="128" column="24" lean-forward="false" selection-start-line="128" selection-start-column="24" selection-end-line="156" selection-end-column="117" />
+            <state relative-caret-position="594">
+              <caret line="207" column="139" lean-forward="true" selection-start-line="206" selection-start-column="8" selection-end-line="207" selection-end-column="139" />
               <folding>
                 <element signature="e#2897#2904#1" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -72,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test 5 essentials.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test 5 essentials.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test 5 essentials.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="609">
+              <caret line="84" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -85,14 +86,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test6.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test6.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="81" selection-end-column="28" />
+            <state relative-caret-position="729">
+              <caret line="128" column="3" lean-forward="false" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="3" />
               <folding>
-                <marker date="1520544471000" expanded="true" signature="2621:2635" ph="..." />
-                <marker date="1520544471000" expanded="true" signature="4800:4812" ph="..." />
+                <marker date="1520546695000" expanded="true" signature="2621:2635" ph="..." />
+                <marker date="1520546695000" expanded="true" signature="5019:5031" ph="..." />
               </folding>
             </state>
           </provider>
@@ -130,8 +131,8 @@
         <option value="$PROJECT_DIR$/test3.html" />
         <option value="$PROJECT_DIR$/test4.html" />
         <option value="$PROJECT_DIR$/test5.html" />
-        <option value="$PROJECT_DIR$/test6.html" />
         <option value="$PROJECT_DIR$/test 5 essentials.html" />
+        <option value="$PROJECT_DIR$/test6.html" />
       </list>
     </option>
   </component>
@@ -296,12 +297,12 @@
       <workItem from="1520289397534" duration="2743000" />
       <workItem from="1520439077138" duration="8588000" />
       <workItem from="1520520976393" duration="269000" />
-      <workItem from="1520534203458" duration="7404000" />
+      <workItem from="1520534203458" duration="8424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19004000" />
+    <option name="totallyTimeSpent" value="20024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -516,8 +517,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="128" column="24" lean-forward="false" selection-start-line="128" selection-start-column="24" selection-end-line="156" selection-end-column="117" />
+        <state relative-caret-position="594">
+          <caret line="207" column="139" lean-forward="true" selection-start-line="206" selection-start-column="8" selection-end-line="207" selection-end-column="139" />
           <folding>
             <element signature="e#2897#2904#1" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -526,24 +527,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test6.html">
+    <entry file="file://$PROJECT_DIR$/test 5 essentials.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="81" selection-end-column="28" />
+        <state relative-caret-position="609">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding>
-            <marker date="1520544471000" expanded="true" signature="2621:2635" ph="..." />
-            <marker date="1520544471000" expanded="true" signature="4800:4812" ph="..." />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test 5 essentials.html">
+    <entry file="file://$PROJECT_DIR$/test6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="729">
+          <caret line="128" column="3" lean-forward="false" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="3" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1520546695000" expanded="true" signature="2621:2635" ph="..." />
+            <marker date="1520546695000" expanded="true" signature="5019:5031" ph="..." />
           </folding>
         </state>
       </provider>
