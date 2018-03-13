@@ -30,10 +30,20 @@
     </div>
 
     <script>
+        console.log("getting url....");
+        console.log("stock # url is: " + window.location.href.split('/')[3]);
+        var stockNumberUrl = window.location.href.split('/')[3];
+        var stockNumber = stockNumberUrl.split(".")[0];
+        console.log("stock # is: " + stockNumber);
+        document.getElementById('stockNumber').value = stockNumber;
+
         function myFunction() {
             var myWindow = window.open("", "MsgWindow", "width=255,height=600");
             myWindow.document.write("")};
     </script>
+
+    <script data-cfasync="false" type="text/javascript"
+            src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
 </body>
 </html>

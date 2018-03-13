@@ -13,9 +13,9 @@
         font-weight: 700;
         font-size: 1em;
         border: none;
-        border-bottom: .15em solid black;
+        /*border-bottom: .15em solid black;*/
         border-radius: 3px;
-        padding: 0.65em 1em;
+        padding: 0.69em 1em 0.65em 1em;
     }
 
     .buttonDiv {
@@ -30,14 +30,6 @@
 </div>
 
 <script>
-
-    console.log("getting url....");
-    console.log("stock # url is: " + window.location.href.split('/')[3]);
-    var stockNumberUrl = window.location.href.split('/')[3];
-    var stockNumber = stockNumberUrl.split(".")[0];
-    console.log("stock # is: " + stockNumber);
-
-
     function myFunction() {
         var myWindow = window.open("", "MsgWindow", "width=255,height=600");
         myWindow.document.write("<!DOCTYPE html>\n" +
@@ -116,7 +108,7 @@
             "        <input type=\"text\" id=\"fax\" name=\"fax\" placeholder=\"Fax\">\n" +
             "\n" +
             "        <label for=\"stockNumber\">Stock #</label>\n" +
-            "        <input type=\"text\" id=\"stockNumber\" name=\"stockNumber\" placeholder=\"Stock #\" required>\n" +
+            "        <input type=\"text\" id=\"stockNumber\" name=\"stockNumber\" value=\"4809\" placeholder=\"Stock #\" required>\n" +
             "\n" +
             "        <label for=\"subject\">Comments</label>\n" +
             "        <textarea id=\"subject\" name=\"subject\" style=\"height:100px\" placeholder=\"Comments\"></textarea>\n" +
@@ -128,6 +120,7 @@
             "</body>\n" +
             "</html>\n" +
             "\n")};
+
 
 </script>
 
