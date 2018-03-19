@@ -1,0 +1,112 @@
+/* GENERAL APPEARANCE */
+html, body, h1, form, fieldset, legend, ol, li {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #2D3133;
+	color: #111111;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: .5%;
+	align-items: center;
+}
+
+form{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	background: #717B7F;
+	-moz-border-radius: 2%;
+	-webkit-border-radius: 2%;
+	border-radius: 2%;
+	padding: 2%;
+	width: 50%;
+	line-height: 30px;
+
+}
+h2{
+	color: #E2F5FF;
+	font-size: 35px;
+}
+legend{
+	font-weight: bold;
+	text-align: center;
+}
+.center {
+  text-align: center;
+}
+
+h4{
+	text-align: center;
+	color:#FFFBE5;
+	font-size: 25px;
+}
+
+
+.button1 {
+    background-color: #FFF2E3; 
+    color: black; 
+    border: 2px solid #6085B2;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+	display: inline-block;
+	margin-left: 82.5%;
+	margin-bottom: 1%;
+    font-size: 13px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #6085B2;
+    color: white;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	margin-left: 82.5%;
+	margin-bottom: 1%;
+    font-size: 13px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;    
+}
+
+.button2 {
+    background-color: #FFF2E3; 
+    color: black; 
+    border: 2px solid #BD6B57;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #BD6B57;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 13px;
+    font-family:Georgia, "Times New Roman", Times, serif;    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
