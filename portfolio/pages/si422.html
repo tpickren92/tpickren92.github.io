@@ -19,7 +19,7 @@
 
         <header id="header" class="hoc clear">
             <div id="logo" class="fl_left">
-                <h1><a href="index.html">TP</a></h1>
+                <h1><a href="../index.html">TP</a></h1>
             </div>
 
             <nav id="mainav" class="fl_right">
@@ -143,6 +143,80 @@
                 the most important information (making an appointment, finding help for a friend, and emergency
                 information) front and center on the homepage.
             </p>
+
+            <h4>A/B Testing</h4>
+
+
+
+
+            <p>
+                To conduct A/B testing for the U of M CAPS website,
+                we first revisited both our research questions and the insights from previous group assignments.
+                During interviews, there was one standout problem experienced by testers: they had difficulty
+                scheduling an appointment and finding information pertaining to appointments on the website.
+                Since booking appointments was also identified by our user survey as one of the most important
+                features of CAPS, we chose to focus on this problem for our A/B tests. This addressed our research
+                questions concerning the most important features of the site, if users found its navigation satisfying,
+                and how likely people were to recommend the site.
+            </p>
+
+            <p>
+                Having picked a topic, we brainstormed hypotheses for A/B testing. We wrote down several pairs,
+                each focused on a different way to improve appointment booking. Then we developed criteria for
+                evaluating the pairs: a good pair of hypotheses had to relate to our chosen topic, have clear
+                independent and dependent variables, be feasible to carry out via photoshop, and materially
+                contribute to the site’s user experience. Using these criteria, we chose two hypotheses:
+            </p>
+
+
+
+            <ol>
+                <li>On the homepage, if we changed the “Clinical Services” tab name to “Make an Appointment”, then it would increase user satisfaction.</li>
+                <li>On the homepage, if we referenced the “Clinical Services” tab in one of the three center content
+                    blocks (the meet our staff block), then it would increase user satisfaction. </li>
+            </ol>
+
+            <h4>Mockups</h4>
+            <img class="one_half first" src="../images/si422images/Changes Text Only.png">
+            <img class="one_half" src="../images/si422images/Changes Location Only.png">
+
+            <p>Then we measured each of the independent variables of “text” and “location” with two dependent variables:
+                ease of making an appointment and the relevancy of its tab. Hypothetically, the experimental
+                version should increase both -- meaning users can easily and quickly find the booking tab.
+            </p>
+
+            <p>After collecting responses, we turned to analysis. Noting the demographics,
+                there were significantly more students than non-students, more females than males,
+                and most of the respondents had never used CAPS before. Then in Excel, we conducted T-Tests
+                for each experiment (change text, change location, change both) vs its control. There were six tests
+                in total, since we used both dependent variables. First, we quantified our A/B test responses.
+                We encoded the Likert scale with values 1 (easiest) through 7 (hardest) to represent, numerically,
+                the ease at which users could book an appointment. Then we encoded the text entry box with values 0
+                (not mentioned) through 1 (mentioned) to represent the relevancy of booking an appointment to the user.
+                Using these columns of numbers, we were able to complete the t-test formula in Excel and compute respective p-values.
+            </p>
+
+            <h4>Next Iteration</h4>
+            <img class="one_half first" src="../images/si422images/Changes Both.png">
+            <img class="one_half" src="../images/si422images/C-Changed Middle Box.png">
+
+            <h4>Conclusion</h4>
+            <p>Our results indicated that changing the tab’s text from “Clinical Services” to “Make an Appointment”
+                significantly increased user satisfaction; t-tests for both dependent variables had p-values less
+                than 0.05. We also found that changing the tab’s location from the navigation bar to the content
+                block materially increased satisfaction as well, with t-tests well under 0.05. But surprisingly,
+                changing both text and location of the tab did not cause a significant increase in user satisfaction.
+                Our p-values for that scenario were 0.16 and 0.28. These results were not as expected, and were
+                probably due to unclear survey questions for that third scenario. In the future, we aim to create
+                more straightforward questions and ask pilot testers if they feel the instructions were clear.
+            </p>
+
+            <p>
+
+            </p>
+
+
+
 
 
 
@@ -271,52 +345,32 @@
 
 
 
-
-<div class="wrapper row4 bgded overlay" style="background-image:url('../images/demo/backgrounds/02.png');">
-    <footer id="footer" class="hoc clear">
-        <!-- ################################################################################################ -->
-        <div class="one_third first">
-            <h3 class="heading">Geodarn</h3>
-            <ul class="faico clear">
-                <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
-            </ul>
-        </div>
-        <div class="one_third">
-            <ul class="nospace meta">
-                <li class="btmspace-15"><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
-                <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
-            </ul>
-        </div>
-        <div class="one_third">
-            <form method="post" action="#">
-                <fieldset>
-                    <legend>Newsletter:</legend>
-                    <div class="clear">
-                        <input type="text" value="" placeholder="Type Email Here&hellip;">
-                        <button class="fa fa-share" type="submit" title="Submit"><em>Submit</em></button>
+            <!-- Footer -->
+            <div class="wrapper row4 bgded overlay" style="background-image:url('../images/rochester1 cropped.jpeg');">
+                <footer id="footer" class="hoc clear">
+                    <div class="center">
+                        <div class="center">
+                            <h3 class="heading">Tom Pickren</h3>
+                            <br>
+                            <ul class="center" style="list-style-type:none; margin-right: 50px;">
+                                <li><i class="fa fa-facebook"></i></a></li>
+                                <li><i class="fa fa-twitter"></i></a></li>
+                                <li><i class="fa fa-linkedin"></i></a></li> <!-- add git hub-->
+                                <li><i class="fa fa-vk"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
-                </fieldset>
-            </form>
-        </div>
-        <!-- ################################################################################################ -->
-    </footer>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row5">
-    <div id="copyright" class="hoc clear">
-        <!-- ################################################################################################ -->
-        <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="#">Domain Name</a></p>
-        <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-        <!-- ################################################################################################ -->
-    </div>
-</div>
+                </footer>
+            </div>
+
+
+            <div class="wrapper row5">
+                <div id="copyright" class="hoc clear">
+                    <p class="fl_center">Copyright &copy; 2018 - All Rights Reserved - <a href="#">TomPickren.io</a></p>
+                </div>
+            </div>
+
+
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
