@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SI 482 - Interaction Design Studio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+
+<div class="bgded overlay" style="background-image:url('../images/rochester1 cropped.jpeg');">
+    <div class="wrapper row1">
+
+        <header id="header" class="hoc clear">
+            <div id="logo" class="fl_left">
+                <h1><a href="../index.html">TP</a></h1>
+            </div>
+
+            <nav id="mainav" class="fl_right">
+                <ul class="clear">
+                    <li class="active"><a href="../index.html">Home</a></li>
+                    <li class="active"><a href="../pages/work.html">Work</a></li>
+                    <li class="active"><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    </div>
+</div>
+<!-- End Top Background Image Wrapper -->
+
+
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+    <main class="hoc container clear">
+        <!-- main body -->
+        <!-- ################################################################################################ -->
+        <div class="content">
+            <!-- ################################################################################################ -->
+            <h1>SI 482 - Interaction Design Studio</h1>
+            <!--<img class="imgr borderedbox inspace-5" src="../images/demo/imgr.gif" alt="">-->
+            <p>Marco is a mobile app that my team and I brainstormed and designed that implements Augmented Reality and geolocation capabilities to help users
+                locate their friends and family within a large crowd of people.
+                Marco is all about allowing users to create, maintain, and share organic
+                communities that spring up from shared experiences.
+            </p>
+
+            <p>mARco aims to be used by users who frequent music concerts and large conventions and gatherings.
+                It is meant to be used when looking for a friend or family member who is attending the
+                same event as the user. In addition, it can be used by people who are wanting to meet new
+                people at these gatherings and events.
+            </p>
+
+            <p>Some of the basic functionality of mARco is to find your friends in a crowd, find new friends
+                at events and gatherings, find event information, and help with coordination between groups
+                of friends at these events. The user can choose between their camera view (utilizing AR technology)
+                or a map view to help find their friends or meet new people. On both of these
+                screens they can toggle between their friends, event information, people they don’t know,
+                or all of the above appearing. The user also has full control of their own privacy so that
+                either anyone, only their friends, or no one can see them. mARco can also be utilized to
+                coordinate plans with friends by creating groups, inviting people to those groups, and group messaging.
+            </p>
+
+            <h4>Major Features</h4>
+
+            <p>First, mARco feels like a direct extension of the event experience.
+                One important design decision we made was choosing an unobstructed camera screen
+                as the homepage of our app. We could have used a map view, social page,
+                or even a newsfeed, but we chose to start with the camera screen because we wanted
+                users to carry their real life viewing experience straight into our app.
+                The result is a seamless experience that allows users to feel like they’re still
+                present and immersed in their surroundings.
+            </p>
+
+            <p> Second, mARco not only locates friends, but also members of the public and event information as well.
+                The app was initially just a friends tracker, but in response to user feedback,
+                it has evolved over time to include a more comprehensive set of services.
+                Now, users can go beyond keeping in touch with their friends and use the app to actively
+                explore their surroundings (meeting new people and finding cool activities at the event).
+                Since technology is commonly derided for making people isolated and less likely to have face-to-face
+                interaction, we’re excited that mARco promotes just the opposite.
+            </p>
+
+            <h4>Tools and Approach</h4>
+            <img  src="../images/si422images/SI 422 Personas Group.jpg" alt="">
+            &nbsp;
+
+
+            <p>To complete this project, we used a variety of tools and approaches. The tools that stand out most are
+                Figma and Sketch--we used them to coordinate design efforts among our team
+                and to finish the high fidelity designs in Sketch.
+                Besides tools, there were two approaches that most shaped our project.
+                The first was the competitive analysis that we conducted near the beginning of the semester.
+                This analysis revealed popular features and drawbacks of other location services apps
+                (such as Find My Friends, Facebook Messenger, etc.) and it greatly influenced us choosing
+                AR scanning as our main and differentiating feature. The second approach we found useful was the
+                Paper Prototyping. This allowed us to test out a couple of different navigation patterns and
+                which revealed which one was most intuitive. It would a big reason why we chose to adopt a
+                fixed tab navigation instead of a hamburger menu, and thus had a huge impact on the overall experience using our app.
+            </p>
+
+            <h4>Design Evolution</h4>
+
+            <p>From the usability defect testing and paper-prototyping, we have found that the lack of a proper
+                navbar confused our testers with the general flow of our application. Our initial implementation
+                of a menu was a lone hamburger menu at the top-left of our interfaces. However, one of our
+                classmate testers noted that he should be able to access any major interface from within a subsidiary
+                interface, and that wasn’t possible with the common placements of the hamburger menu button and the
+                back button. This navbar implementation lead to our major change in application navigation and
+                reorganization of interface hierarchy to come.
+
+            </p>
+
+            <p>Throughout the whole design process of mARco, we focused heavily on the two major functionalities
+                and interfaces: scanning and social interfaces. Therefore the majority of  design evolution
+                came from interfaces regarding these two major features. For example, for the scanning interface,
+                our navbar and filter options menu have changed in its orientation, location, and properties.
+                We originally had planned to not have a navbar at all, as we didn’t realize how big of a role the
+                social aspects played within our application. However, as the design process continued, we received
+                feedbacks about social features from groups, events, to friends which lead us to implementing a navbar.
+                Along with the implementation of a navbar, the positioning and orientation of the filter options needed
+                new adjustments. With the use-case of our user scanning in a large and crowded area, we ultimately
+                decided to place the filter options on the lower half of the screen for easiest access.
+            </p>
+
+            <p>Another major change we implemented was the privacy options placement within our application.
+                We received a great feedback from our GSI, Raden, about how our original placement of
+                the privacy settings button wasn’t visible enough, and therefore the amount of importance
+                put forth to our users was lacking. To address this in two-fold: we created a Profile tab
+                for users be able to quickly see and access his/her privacy settings, and color-coded privacy
+                settings throughout the application for all three major components of mARco: users, group, and events.
+                During the presentation, we also received positive feedbacks about the ease of visually being able to
+                differentiate the privacy setting of a component without reading a single word.
+            </p>
+
+            <p>Overall, our team believes that the paper-prototyping and usability defects testing were the best
+                methods within the design process. These two design methods provided our team with strong pros
+                with which we were able to design our application upon: as week 7’s readings on paper prototyping
+                suggested, being able to implement these tests within any point in the design process, and the ability
+                to quickly gather and implement on designs. We learned that paper-prototyping is a powerful tool that
+                can provide you with quick and tangible results, that is often underestimated among many designers.
+            </p>
+
+            <h4>Impact</h4>
+
+            <p>Our design could meaningfully impact the way that people interact with each other and the events
+                that they attend. The solution that we have come up with removes the effort and time it takes
+                to try and find your friend in a large crowd, as well as the time it takes to find something
+                like a bathroom or food cart. By reducing this time spent trying to coordinate plans and find
+                someone in a large crowd, we allow people to have more time to interact with one another and
+                enjoy the time they are spending together. When a user opens mARco, they are immediately taken
+                to our main screen where they see their camera open and the utilization of AR.
+                Our hope here was to make the app an extension of the event so that users did not have to bury
+                their face in the phone and not see what’s going on around them. This use of technology really
+                allows users to engage more fully with their surroundings, while still using our app.
+                verall our goal was to give users a seamless and easy way to find their friends and increase time
+                spent at an event engaging with people they want to engage with.
+            </p>
+
+        </div>
+    </main>
+</div>
+
+<!-- Footer -->
+<div class="wrapper row4 bgded overlay" style="background-image:url('../images/rochester1 cropped.jpeg');">
+    <footer id="footer" class="hoc clear">
+        <div class="center">
+            <div class="center">
+                <h3 class="heading">Tom Pickren</h3>
+                <br>
+                <ul class="center" style="list-style-type:none; margin-right: 50px;">
+                    <li><i class="fa fa-facebook"></i></a></li>
+                    <li><i class="fa fa-twitter"></i></a></li>
+                    <li><i class="fa fa-linkedin"></i></a></li>
+                    <li><i class="fa fa-github"></i></a></li>
+                    <li><i class="fa fa-vk"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<div class="wrapper row5">
+    <div id="copyright" class="hoc clear">
+        <p class="fl_center">Copyright &copy; 2018 - All Rights Reserved - <a href="#">TomPickren.io</a></p>
+    </div>
+</div>
+
+
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
