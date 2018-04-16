@@ -3,45 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Tom Pickren</title>
-	<style>
-		body{
-			background-image: url("./images/sun-pattern.png");
-		}
-		#image{
-			/*border-color: blue;*/
-			/*border: 5px solid;*/
-		}
-		.preview{
-			/*width:10%;*/
-			display: inline-flex;
+	<link rel="stylesheet" href="./css/style.css">
 
-			padding: 5%;
-			width:50%;
-			border: 5px solid blue;
-		}
-		img{
-			width:50%;
-		}
-		h1{
-			text-align: center;
-		}
-
-	</style>
 
 	<script type="text/javascript">
         function showImage() {
             document.getElementById("theImage").style.display = "inline-flex";
             document.getElementById("otherImage").style.display = "inline-flex";
+            document.getElementById("otherImage").style.marginLeft = "auto";
+            document.getElementById("otherImage").style.marginRight = "auto";
 		}
 
         function hideImage() {
             document.getElementById("theImage").style.display = "none";
             document.getElementById("otherImage").style.display = "block";
-            document.getElementById("otherImage").style.marginLeft = "auto";
+            document.getElementById("otherImage").style.marginLeft = "70%";
             document.getElementById("otherImage").style.marginRight = "auto";
-
-            // document.getElementById("image").style.margin = "auto";
-        }
+		}
 
 	</script>
 </head>
@@ -60,7 +38,6 @@
 
 
 <br/>
-<!--<input type = "submit" onchange="toggle()" value = "Hide Image" >-->
 
 <button type="button" onclick="showImage()">Show image</button>
 
